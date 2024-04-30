@@ -6,6 +6,13 @@
 
 Plugin for Wordpress for the management of Custom Post Types (CPTs). You can add new CPTs, edit and delete them. It also has a personalized meta box for the contents of the CPTs (Additional Data) that you can use if you wish.
 
+![gestion-custom-post-type-agregar-editar-aliminar](https://github.com/javiervilchezl/wp-custom-post-type-jvl/assets/161946280/cdf64e2b-4b9f-438d-929f-787a691328cb)
+
+![editar-custom-post-type](https://github.com/javiervilchezl/wp-custom-post-type-jvl/assets/161946280/89d019b4-5a04-4cc1-85a0-6449950d1ba6)
+
+![eliminar-custom-post-type](https://github.com/javiervilchezl/wp-custom-post-type-jvl/assets/161946280/9e610cea-541d-4c21-ab1e-cd0646bf3c68)
+
+
 ## Install
 
 Download it compressed in zip, in your WordPress plugins panel select upload plugin, then activate it.
