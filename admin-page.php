@@ -298,7 +298,7 @@ function jvl_update_custom_post_type($original_slug, $updated_data) {
 function jvl_delete_custom_post_type_page($slug) {
     $admin_url = admin_url('admin.php?page=jvl_custom_post_types');
     echo '<div class="wrap">';
-    echo '<h2>Eliminar Custom Post Type <a href="'.$admin_url.'" class="page-title-action">Volver a Gestión de CPTs</a> </h2>';
+    echo '<h2>Eliminar Custom Post Type: ' . esc_attr($slug) . ' <a href="'.$admin_url.'" class="page-title-action">Volver a Gestión de CPTs</a> </h2>';
     echo '<p><strong>Advertencia:</strong> Estás a punto de eliminar un CPT. Esto puede afectar a tu sitio si hay contenidos asociados con este CPT.</p>';
     echo '<form method="post" action="" id="jvl_delete_form">';
     echo '<input type="hidden" name="cpt_to_delete" value="' . esc_attr($slug) . '">';
